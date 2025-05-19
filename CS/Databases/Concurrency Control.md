@@ -66,7 +66,7 @@ new type of locks which is a lock acquired on a higher level object to allow the
 - Shared + Intent Exclusive Lock (SIX)
 	- S-Lock at higher level, intent to get X-Locks at lower level
 
-![[Pasted image 20250426192009.png]]
+![](Pasted%20image%2020250426192009.png)
 
 #### Explicit Locking
 Manual lock table my DBMS

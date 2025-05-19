@@ -90,12 +90,12 @@ designed to work with columns with small cardinality
 
 we put 1 in the index if the row is valid and 0 if not so it gives us a binary line for the rows he has with some 0 and 1 and any time we want to get some condition we get this index and fetch the rows with 1 for this value
 
-![[Pasted image 20250515074029.png]]
+![](Pasted%20image%2020250515074029.png)
 
 
 ### Q&A
 #### The Diff between Primary ID and Row ID
-![[Pasted image 20250515073035.png]]
+![](Pasted%20image%2020250515073035.png)
 
 #### The diff between index attribute and index page *recheck when free*
 **index attribute**: is indexes that make on the attributes of table on database

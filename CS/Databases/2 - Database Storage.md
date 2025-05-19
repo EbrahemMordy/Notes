@@ -1,10 +1,10 @@
 # Explanation
 
 ## DBMS Structure 
-![[Pasted image 20250430015759.png]]
+![](Pasted%20image%2020250430015759.png)
 
 ## Storage Types
-![[Pasted image 20250430020139.png]]
+![](Pasted%20image%2020250430020139.png)
 
 ## Data Movement
 get data from Disk and save it in memory to query over it and after that save it to disk
@@ -14,7 +14,7 @@ get data from Disk and save it in memory to query over it and after that save it
 	- Pages : block of data with unique ID for each page	
 
 ## File Organization
-![[Pasted image 20250430021025.png]]
+![](Pasted%20image%2020250430021025.png)
 
 ## Heap Files
 files with unordered pages

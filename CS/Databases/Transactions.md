@@ -54,7 +54,7 @@ Some order of operations in the transaction, each different order is a different
 	- Strict Schedule
 		- Subset of cascadeless with stricter conditions 
 			- not only for W/R like cascading, we will check for W/R and also W/W 
-	- ![[Pasted image 20250402073343.png]]
+	- ![](Pasted%20image%2020250402073343.png)
 - Schedule Serializability 
 	- Serial Schedule
 		- no intersect between transactions
@@ -69,7 +69,7 @@ Some order of operations in the transaction, each different order is a different
 	- Dependency Graph 
 		- a directed graph where each node is a transaction and each edge is just a conflict operation
 		- if the graph have a cycle we say it can not be serial
-	- ![[Pasted image 20250402080106.png]]
+	- ![](Pasted%20image%2020250402080106.png)
 
 ---
 # Sources

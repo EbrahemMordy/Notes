@@ -1,6 +1,6 @@
 # Explanation 
 
-![[Pasted image 20250519065133.png]]
+![](Pasted%20image%2020250519065133.png)
 
 >App Level Security have two main things Authentication and authorization 
 #### Authentication

@@ -34,19 +34,19 @@ SELECT *
 
 | Equal to                 | `=`          |
 | ------------------------ | ------------ |
-| Not equal to             | `<>` or `!=` |
+| Not equal to             | `<>` or `!=` |
 | Greater than             | `>`          |
 | Less than                | `<`          |
 | Greater than or equal to | `>=`         |
 | Less than or equal to    | `<=`         |
 # SQL Logical Operators
-- [`LIKE`](https://mode.com/sql-tutorial/sql-like) allows you to match similar values, instead of exact values.
-- [`IN`](https://mode.com/sql-tutorial/sql-in-operator) allows you to specify a list of values you'd like to include.
-- [`BETWEEN`](https://mode.com/sql-tutorial/sql-between) allows you to select only rows within a certain range.
-- [`IS NULL`](https://mode.com/sql-tutorial/sql-is-null) allows you to select rows that contain no data in a given column.
-- [`AND`](https://mode.com/sql-tutorial/sql-and-operator) allows you to select only rows that satisfy two conditions.
-- [`OR`](https://mode.com/sql-tutorial/sql-or-operator) allows you to select rows that satisfy either of two conditions.
-- [`NOT`](https://mode.com/sql-tutorial/sql-not-operator) allows you to select rows that do not match a certain condition.
+- [`LIKE`](https://mode.com/sql-tutorial/sql-like) allows you to match similar values, instead of exact values.
+- [`IN`](https://mode.com/sql-tutorial/sql-in-operator) allows you to specify a list of values you'd like to include.
+- [`BETWEEN`](https://mode.com/sql-tutorial/sql-between) allows you to select only rows within a certain range.
+- [`IS NULL`](https://mode.com/sql-tutorial/sql-is-null) allows you to select rows that contain no data in a given column.
+- [`AND`](https://mode.com/sql-tutorial/sql-and-operator) allows you to select only rows that satisfy two conditions.
+- [`OR`](https://mode.com/sql-tutorial/sql-or-operator) allows you to select rows that satisfy either of two conditions.
+- [`NOT`](https://mode.com/sql-tutorial/sql-not-operator) allows you to select rows that do not match a certain condition.
 
 # SQL LIKE
 ```sql
@@ -119,10 +119,10 @@ SELECT *
 
 ---
 # SQL Aggregate Functions
-- [`COUNT`](https://mode.com/sql-tutorial/sql-count) counts how many rows are in a particular column.
-- [`SUM`](https://mode.com/sql-tutorial/sql-sum) adds together all the values in a particular column.
-- [`MIN`](https://mode.com/sql-tutorial/sql-min-max) and [`MAX`](https://mode.com/sql-tutorial/sql-min-max) return the lowest and highest values in a particular column, respectively.
-- [`AVG`](https://mode.com/sql-tutorial/sql-avg) calculates the average of a group of selected values.
+- [`COUNT`](https://mode.com/sql-tutorial/sql-count) counts how many rows are in a particular column.
+- [`SUM`](https://mode.com/sql-tutorial/sql-sum) adds together all the values in a particular column.
+- [`MIN`](https://mode.com/sql-tutorial/sql-min-max) and [`MAX`](https://mode.com/sql-tutorial/sql-min-max) return the lowest and highest values in a particular column, respectively.
+- [`AVG`](https://mode.com/sql-tutorial/sql-avg) calculates the average of a group of selected values.
 
 # SQL COUNT
 ```sql
@@ -170,7 +170,7 @@ SELECT AVG(high)
 ```
 
 # SQL GROUP BY
-You can group by multiple columns, but you have to separate column names with commas—just as with [`ORDER BY`](https://mode.com/sql-tutorial/sql-order-by)):
+You can group by multiple columns, but you have to separate column names with commas—just as with [`ORDER BY`](https://mode.com/sql-tutorial/sql-order-by)):
 
 ```sql
 SELECT year,
@@ -218,7 +218,7 @@ SELECT player_name,
   FROM benn.college_football_players
 ```
 
-But what if you don't want null values in the `is_a_senior` column? The following query replaces those nulls with "no":
+But what if you don't want null values in the `is_a_senior` column? The following query replaces those nulls with "no":
 
 ```sql
 SELECT player_name,
@@ -227,7 +227,7 @@ SELECT player_name,
             ELSE 'no' END AS is_a_senior
   FROM benn.college_football_players
 ```
-You can also define a number of outcomes in a `CASE` statement by including as many `WHEN`/`THEN` statements as you'd like:
+You can also define a number of outcomes in a `CASE` statement by including as many `WHEN`/`THEN` statements as you'd like:
 
 ```sql
 SELECT player_name,
@@ -239,7 +239,7 @@ SELECT player_name,
   FROM benn.college_football_players
 ```
 
-`CASE`'s slightly more complicated and substantially more useful functionality comes from pairing it with [aggregate functions](https://mode.com/sql-tutorial/sql-aggregate-functions). For example, let's say you want to only count rows that fulfill a certain condition. Since [`COUNT`](https://mode.com/sql-tutorial/sql-count) ignores nulls, you could use a `CASE` statement to evaluate the condition and produce null or non-null values depending on the outcome:
+`CASE`'s slightly more complicated and substantially more useful functionality comes from pairing it with [aggregate functions](https://mode.com/sql-tutorial/sql-aggregate-functions). For example, let's say you want to only count rows that fulfill a certain condition. Since [`COUNT`](https://mode.com/sql-tutorial/sql-count) ignores nulls, you could use a `CASE` statement to evaluate the condition and produce null or non-null values depending on the outcome:
 
 ```sql
 SELECT CASE WHEN year = 'FR' THEN 'FR'
@@ -250,7 +250,7 @@ SELECT CASE WHEN year = 'FR' THEN 'FR'
                ELSE 'Not FR' END
 ```
 
-Now, you might be thinking "why wouldn't I just use a `WHERE` clause to filter out the rows I don't want to count?" You could do that—it would look like this:
+Now, you might be thinking "why wouldn't I just use a `WHERE` clause to filter out the rows I don't want to count?" You could do that—it would look like this:
 
 ```sql
 SELECT COUNT(1) AS fr_count
@@ -258,7 +258,7 @@ SELECT COUNT(1) AS fr_count
  WHERE year = 'FR'
 ```
 
-But what if you also wanted to count a couple other conditions? Using the `WHERE` clause only allows you to count one condition. Here's an example of counting multiple conditions in one query:
+But what if you also wanted to count a couple other conditions? Using the `WHERE` clause only allows you to count one condition. Here's an example of counting multiple conditions in one query:
 
 ```sql
 SELECT CASE WHEN year = 'FR' THEN 'FR'
@@ -303,15 +303,15 @@ SELECT teams.conference AS conference,
 ```
 
 # SQL INNER JOIN
-![[Pasted image 20250427192527.png]]
+![](Pasted%20image%2020250427192527.png)
 
 # SQL Outer Joins
-Outer joins are joins that return matched values **and** unmatched values from either or both tables. There are a few types of outer joins:
+Outer joins are joins that return matched values **and** unmatched values from either or both tables. There are a few types of outer joins:
 
-- [`LEFT JOIN` returns only unmatched rows from the left table](https://mode.com/sql-tutorial/sql-left-join), as well as matched rows in both tables.
-- [`RIGHT JOIN` returns only unmatched rows from the right table](https://mode.com/sql-tutorial/sql-right-join) , as well as matched rows in both tables.
-- [`FULL OUTER JOIN` returns unmatched rows from both tables,](https://mode.com/sql-tutorial/sql-full-outer-join)as well as matched rows in both tables.
-![[Pasted image 20250427201741.png]]
+- [`LEFT JOIN` returns only unmatched rows from the left table](https://mode.com/sql-tutorial/sql-left-join), as well as matched rows in both tables.
+- [`RIGHT JOIN` returns only unmatched rows from the right table](https://mode.com/sql-tutorial/sql-right-join) , as well as matched rows in both tables.
+- [`FULL OUTER JOIN` returns unmatched rows from both tables,](https://mode.com/sql-tutorial/sql-full-outer-join)as well as matched rows in both tables.
+![](Pasted%20image%2020250427201741.png)
 # SQL LEFT JOIN
 ```sql
 SELECT companies.permalink AS companies_permalink,
@@ -388,7 +388,7 @@ FROM Meals;
 SELECT *
 FROM Drinks
 ```
-![[Pasted image 20250428175613.png]]
+![](Pasted%20image%2020250428175613.png)
 
 # SQL UNION
 ```sql
@@ -438,9 +438,9 @@ SELECT companies.permalink,
 The DDL commands in SQL are:
 
 - **`CREATE`**: To add a new object to the database.
-- **`ALTER`:** To change the structure of the database.
-- **`DROP`**: To remove an existing object from the database. Check out our guide on [how to delete a column in SQL](https://www.dbvis.com/thetable/deleting-a-column-in-sql/).
-- **`TRUNCATE`:** To remove all records from a table, including the space allocated to store this data.
+- **`ALTER`:** To change the structure of the database.
+- **`DROP`**: To remove an existing object from the database. Check out our guide on [how to delete a column in SQL](https://www.dbvis.com/thetable/deleting-a-column-in-sql/).
+- **`TRUNCATE`:** To remove all records from a table, including the space allocated to store this data.
 
 ```MYSQL
 CREATE TABLE employees (
@@ -456,26 +456,26 @@ TRUNCATE TABLE employees;
 ```
 
 # Data Manipulation Language
-DML statements include:
+DML statements include:
 
-- **SELECT**: This statement is used to retrieve data from one or more tables in a database. As an example, the following SQL query retrieves all records from the "customers" table: ``SELECT * FROM customers;``  
+- **SELECT**: This statement is used to retrieve data from one or more tables in a database. As an example, the following SQL query retrieves all records from the "customers" table: ``SELECT * FROM customers;``  
 
 - **INSERT**: This statement is used to insert new data into a table. As an illustration, the following SQL statement inserts a new row into the "customers" table:
-  ``INSERT INTO customers (id, name, address) VALUES (1, 'John Smith,' '123 Main St');``  
+  ``INSERT INTO customers (id, name, address) VALUES (1, 'John Smith,' '123 Main St');``  
 
 - **UPDATE**: This statement is used to modify existing data in a table. For example, the following SQL statement updates the address of the customer with an ID of 1 in the "customers" table: 
-  ``UPDATE customers SET address = '456 Park Ave' WHERE id = 1;``  
+  ``UPDATE customers SET address = '456 Park Ave' WHERE id = 1;``  
 
 - **DELETE**: This statement is used to delete data from a table. For example, the following SQL statement deletes the customer with an ID of 1 from the "customers" table:
-  ``DELETE FROM customers WHERE id = 1;``
+  ``DELETE FROM customers WHERE id = 1;``
 
 
 # Data Constraints
-- [NOT NULL](https://www.w3schools.com/sql/sql_notnull.asp) - Ensures that a column cannot have a NULL value
-- [UNIQUE](https://www.w3schools.com/sql/sql_unique.asp) - Ensures that all values in a column are different
-- [PRIMARY KEY](https://www.w3schools.com/sql/sql_primarykey.asp) - A combination of a `NOT NULL` and `UNIQUE`. Uniquely identifies each row in a table
-- [FOREIGN KEY](https://www.w3schools.com/sql/sql_foreignkey.asp) - Prevents actions that would destroy links between tables
-- [CHECK](https://www.w3schools.com/sql/sql_check.asp) - Ensures that the values in a column satisfies a specific condition
+- [NOT NULL](https://www.w3schools.com/sql/sql_notnull.asp) - Ensures that a column cannot have a NULL value
+- [UNIQUE](https://www.w3schools.com/sql/sql_unique.asp) - Ensures that all values in a column are different
+- [PRIMARY KEY](https://www.w3schools.com/sql/sql_primarykey.asp) - A combination of a `NOT NULL` and `UNIQUE`. Uniquely identifies each row in a table
+- [FOREIGN KEY](https://www.w3schools.com/sql/sql_foreignkey.asp) - Prevents actions that would destroy links between tables
+- [CHECK](https://www.w3schools.com/sql/sql_check.asp) - Ensures that the values in a column satisfies a specific condition
 
 # Subqueries 
 ```SQL
@@ -484,7 +484,7 @@ WHERE ID IN (SELECT ID FROM CUSTOMERS WHERE SALARY > 4500);
 ```
 
 # Correlated Subqueries
-A _correlated subquery_ is a subquery that contains a reference to a table that also appears in the outer query. For example:
+A _correlated subquery_ is a subquery that contains a reference to a table that also appears in the outer query. For example:
 
 ```mysql
 SELECT * FROM t1
@@ -501,10 +501,10 @@ SELECT * FROM t1
 - LOWER `LOWER(text)` 
 
 # Date and Time
-- `DATE` - format YYYY-MM-DD
-- `DATETIME` - format: YYYY-MM-DD HH:MI:SS
-- `TIMESTAMP` - format: YYYY-MM-DD HH:MI:SS
-- `YEAR` - format YYYY or YY
+- `DATE` - format YYYY-MM-DD
+- `DATETIME` - format: YYYY-MM-DD HH:MI:SS
+- `TIMESTAMP` - format: YYYY-MM-DD HH:MI:SS
+- `YEAR` - format YYYY or YY
 
 # Date and Time Functions
 - TIMESTAMP `TIMESTAMP(expression, time)` 
@@ -575,7 +575,7 @@ A covering index means that all the information needed for the query can be foun
 
 # Partial Index
 - This is an index that includes only a subset of rows from a table, allowing us to save some space that a full index would occupy.
-- This is especially useful when we know that users query only a subset of rows from the table. In the case of IMDb, it may be that the users are more likely to query a movie that was just released as opposed to a movie that is 15 years old. Let’s try to create a partial index that stores the titles of movies released in 2023.
+- This is especially useful when we know that users query only a subset of rows from the table. In the case of IMDb, it may be that the users are more likely to query a movie that was just released as opposed to a movie that is 15 years old. Let's try to create a partial index that stores the titles of movies released in 2023.
     ```mysql
     CREATE INDEX "recents" ON "movies" ("titles")
     WHERE "year" = 2023;
@@ -592,7 +592,7 @@ Concurrency is the simultaneous handling of multiple queries or interactions by 
 
 # Transactions
 Transactions have some properties, which can be remembered using the acronym ACID:
--  **atomicity**: can’t be broken down into smaller pieces,
+-  **atomicity**: can't be broken down into smaller pieces,
 - **consistency**: should not violate a database constraint,
 - **isolation**: if multiple users access a database, their transactions cannot interfere with each other,
 - **durability**: in case of any failure within the database, all data changed by transactions will remain.
@@ -612,8 +612,8 @@ ROLLBACK;
 
 # Race Conditions
 - A race condition occurs when multiple entities simultaneously access and make decisions based on a shared value, potentially causing inconsistencies in the database. Unresolved race conditions can be exploited by hackers to manipulate the database.
-- transactions are processed in **isolation** to avoid the inconsistencies in the first place. Each transaction dealing with similar data from our database will be processed sequentially. This helps prevent the inconsistencies that an adversarial attack can exploit.
-- To make transactions sequential, SQLite and other database management systems use **locks** on databases. A table in a database could be in a few different states:
+- transactions are processed in **isolation** to avoid the inconsistencies in the first place. Each transaction dealing with similar data from our database will be processed sequentially. This helps prevent the inconsistencies that an adversarial attack can exploit.
+- To make transactions sequential, SQLite and other database management systems use **locks** on databases. A table in a database could be in a few different states:
     - **UNLOCKED**: this is the default state when no user is accessing the database,
     - **SHARED**: when a transaction is reading data from the database, it obtains shared lock that allows other transactions to read simultaneously from the database,
     - **EXCLUSIVE**: if a transaction needs to write or update data, it obtains an exclusive lock on the database that does not allow other transactions to occur at the same time (not even a read)
