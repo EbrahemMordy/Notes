@@ -1,14 +1,18 @@
 # Explanation
 
 ### How we read data from table
+
 **Full table scan** Loop over all data in the page and compare the values with some condition 
+
 **parallel Scan** Use multi threads to read data from the pages
 - complex 
-- based on ur PC like CPU
+- based on ur PC like CP
+
 **partitioning** split the data into some parts with some condition valid for all data in this part
 - diff size on each part
 - insert take time to check which part to insert in
 - if you need another condition other than the first condition it will be bad 
+
 **Index** use index to find the data which we want
 
 ### What is the index
