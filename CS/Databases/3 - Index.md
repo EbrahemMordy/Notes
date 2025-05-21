@@ -6,7 +6,7 @@
 
 **parallel Scan** Use multi threads to read data from the pages
 - complex 
-- based on ur PC like CP
+- based on ur PC like CPU
 
 **partitioning** split the data into some parts with some condition valid for all data in this part
 - diff size on each part

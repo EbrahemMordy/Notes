@@ -24,6 +24,7 @@ entity it's just a java class that represent the table in database to become jav
 - mark this class with annotation called `Entity` so java can know that this class represent entity from database
 - add each column from table to become attribute in java class
 - it's best practice to add `Column` for those attributes and also use `Id` annotation and any other annotations if there.
+
 > Persist is not an insert, it's just adding this query to context and JPA will treat it and maybe end with insert
 #### how to connect to db programmatic 
 - make a class and implement `PresistenceUnitInfo` 
