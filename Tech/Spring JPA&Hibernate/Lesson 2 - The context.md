@@ -15,7 +15,7 @@ to assign for each attribute the column in database which it represents
 
 #### Entity Manager 
 - Find
-	- find data from the database with ID
+	- find data from the context with ID or from database
 - persist
 	- save to context **new one**
 - Update
