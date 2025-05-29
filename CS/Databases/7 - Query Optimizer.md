@@ -28,6 +28,7 @@ calculate cost for plans to check if the transform was optimized or doesn't matt
 - etc.
 ## Bottom-Up Optimization
 start from leaves and for each node or operation find the most optimized plan for it and for each level save the most optimized plan and use it in higher level
+
 ![](Pasted%20image%2020250526154502.png)
 ## Top-Down Optimization
 start form logical plan and try to find the most optimized plan
