@@ -4,15 +4,18 @@
 
 ### Computer Science (CS)
 - **Databases**
-  - [Relational Databases & Algebra](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/1%20-%20Relational%20Databases%20%26%20Algebra.md)
-  - [Database Storage](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/2%20-%20Database%20Storage.md)
-  - [Index](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/3%20-%20Index.md)
-  - [SQL Query Life Cycle](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/4%20-%20SQL%20Query%20Life%20Cycle.md)
-  - [Join Algorithms](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/5%20-%20Join%20Algorithms.md)
-  - [Aggregation Algorithms](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/6%20-%20Aggregation%20Algorithms.md)
-  - [Query Optimizer](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/7%20-%20Query%20Optimizer.md)
-  - [Concurrency Control](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Concurrency%20Control.md)
-  - [Transactions](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Transactions.md)
+  - **Relational Database Internals**
+    - [Relational Databases & Algebra](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/01%20-%20Relational%20Databases%20%26%20Algebra.md)
+    - [Database Storage](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/02%20-%20Database%20Storage.md)
+    - [Index](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/03%20-%20Index.md)
+    - [SQL Query Life Cycle](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/04%20-%20SQL%20Query%20Life%20Cycle.md)
+    - [Join Algorithms](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/05%20-%20Join%20Algorithms.md)
+    - [Aggregation Algorithms](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/06%20-%20Aggregation%20Algorithms.md)
+    - [Query Optimizer](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/07%20-%20Query%20Optimizer.md)
+    - [Cardinality Estimation](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/08%20-%20Cardinality%20Estimation.md)
+    - [Query Execution](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/09%20-%20Query%20Execution.md)
+    - [Transactions](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/10%20-%20Transactions.md)
+    - [Concurrency Control](https://github.com/EbrahemMordy/Notes/blob/main/CS/Databases/Relational%20Database%20Internals/11%20-%20Concurrency%20Control%20%28need%20to%20complete%29.md)
 
 ### Technology (Tech)
 - **Spring Framework**
