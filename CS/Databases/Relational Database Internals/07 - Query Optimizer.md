@@ -16,8 +16,8 @@ cannot be executed
 implementation for logical operations and can be executed and has a cost function 
 ## Rule-Based Optimization 
 get initial plan and transform it with some fixed rules
-![](Pasted%20image%2020250526152351.png) 
-![](Pasted%20image%2020250526152713.png)
+![](Imgs/Pasted%20image%2020250526152351.png) 
+![](Imgs/Pasted%20image%2020250526152713.png)
 ## Cost-Based Optimization
 calculate cost for plans to check if the transform was optimized or doesn't matter as they are same cost, calculate cost with **cost model** as it has cost function for each operation
 - join order
@@ -29,9 +29,9 @@ calculate cost for plans to check if the transform was optimized or doesn't matt
 ## Bottom-Up Optimization
 start from leaves and for each node or operation find the most optimized plan for it and for each level save the most optimized plan and use it in higher level
 
-![](Pasted%20image%2020250526154502.png)
+![](Imgs/Pasted%20image%2020250526154502.png)
 ## Top-Down Optimization
 start form logical plan and try to find the most optimized plan
 > **search for more details** 
 # Sources
-[SQL Query Optimizer (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=iAxFGRbAh8s&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=12&pp=iAQB "SQL Query Optimizer (Arabic - عربي) with Amr Elhelw - Tech Vault") 
+- [SQL Query Optimizer (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=iAxFGRbAh8s&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=12&pp=iAQB "SQL Query Optimizer (Arabic - عربي) with Amr Elhelw - Tech Vault") 

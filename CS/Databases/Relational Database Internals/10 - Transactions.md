@@ -54,7 +54,7 @@ Some order of operations in the transaction, each different order is a different
 	- Strict Schedule
 		- Subset of cascadeless with stricter conditions 
 			- not only for W/R like cascading, we will check for W/R and also W/W 
-	- ![](Pasted%20image%2020250402073343.png)
+	- ![](Imgs/Pasted%20image%2020250402073343.png)
 - Schedule Serializability 
 	- Serial Schedule
 		- no intersect between transactions
@@ -69,9 +69,7 @@ Some order of operations in the transaction, each different order is a different
 	- Dependency Graph 
 		- a directed graph where each node is a transaction and each edge is just a conflict operation
 		- if the graph have a cycle we say it can not be serial
-	- ![](Pasted%20image%2020250402080106.png)
-
----
+	- ![](Imgs/Pasted%20image%2020250402080106.png)
 # Sources
-[Amr Elhelw Lec1](https://youtu.be/ziH5Y4tvQJE?si=8N4E9VKeulAZYuYM)
-[Amr Elhelw Lec2](https://youtu.be/KRZTwTWiUek?si=d23IKvtMOj_TDOns) 
+- [Transactions (1) - ACID Properties (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=ziH5Y4tvQJE&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=17&pp=iAQB "Transactions (1) - ACID Properties (Arabic - عربي) with Amr Elhelw - Tech Vault")
+- [Transactions (2) - Schedules (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=KRZTwTWiUek&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=18&pp=iAQB "Transactions (2) - Schedules (Arabic - عربي) with Amr Elhelw - Tech Vault")

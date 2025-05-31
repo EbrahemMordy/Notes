@@ -46,4 +46,4 @@ foreach tuple r in R
 ### Cost of Hash Join
 > Cost = (N<sub>r</sub> + N<sub>s</sub>) \* C<sub>Hash</sub> 
 # Sources
-[Join Algorithms - Nested Loop, Merge, Hash (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=oVeo3i5ExaA&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=10&pp=iAQB "Join Algorithms - Nested Loop, Merge, Hash (Arabic - عربي) with Amr Elhelw - Tech Vault") 
+- [Join Algorithms - Nested Loop, Merge, Hash (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=oVeo3i5ExaA&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=10&pp=iAQB "Join Algorithms - Nested Loop, Merge, Hash (Arabic - عربي) with Amr Elhelw - Tech Vault") 

@@ -1,16 +1,16 @@
 # Explanation
 
 ## DBMS Structure 
-![](Pasted%20image%2020250430015759.png)
+![](Imgs/Pasted%20image%2020250430015759.png)
 ## Storage Types
-![](Pasted%20image%2020250430020139.png)
+![](Imgs/Pasted%20image%2020250430020139.png)
 ## Data Movement
 get data from Disk and save it in memory to query over it and after that save it to disk
 ## Files & Pages
 - Files
 	- Pages : block of data with unique ID for each page
 ## File Organization
-![](Pasted%20image%2020250430021025.png)
+![](Imgs/Pasted%20image%2020250430021025.png)
 ## Heap Files
 files with unordered pages
 ## Page Directory 
@@ -49,5 +49,5 @@ Store the actual data into the index
 **Header|Data**
 if the data can not fit the word size we can hash it and store the data in another page or even other file like blob and then use the pointer to it and add it in the tuple
 # Sources
-[Amr Elhelw Lec1](https://youtu.be/-HtHhBQbMB4?si=CWCsIi05xtURGUa3) 
-[Amr Elhelw Lec2](https://youtu.be/8-LJyyAjOhE?si=z0ko3HS-fUfOzuLH) 
+- [Database Storage - Part 1 (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=-HtHhBQbMB4&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=3&pp=iAQB "Database Storage - Part 1 (Arabic - عربي) with Amr Elhelw - Tech Vault")
+- [Database Storage - Part 2 (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=8-LJyyAjOhE&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=4&pp=iAQB "Database Storage - Part 2 (Arabic - عربي) with Amr Elhelw - Tech Vault")

@@ -26,5 +26,5 @@ output combinations of tuples from input with matching attribute value
 ### Tree Representation
 represent the query as tree
 # Sources
-[Amr Elhelw Lec1](https://youtu.be/UuCDByipiCo?si=L7Y9GCFPQqaEmsGJ) 
-[Amr Elhelw Lec2](https://youtu.be/OuFS0tcQXh8?si=tTQaalea0y1FpPqw) 
+- [Relational Databases & Relational Algebra (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=UuCDByipiCo&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=1&t=522s&pp=iAQB0gcJCbEJAYcqIYzv "Relational Databases & Relational Algebra (Arabic - عربي) with Amr Elhelw - Tech Vault")
+- [Relational Algebra - Deep Dive (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=OuFS0tcQXh8&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=2&pp=iAQB "Relational Algebra - Deep Dive (Arabic - عربي) with Amr Elhelw - Tech Vault")
