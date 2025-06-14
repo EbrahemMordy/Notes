@@ -64,7 +64,24 @@ new type of locks which is a lock acquired on a higher level object to allow the
 ![](Imgs/Pasted%20image%2020250426192009.png)
 ### Explicit Locking
 Manual lock table my DBMS
+## Timestamp Ordering
+each transaction get a timestamp and each timestamp is increasing 
+- no locks
+- each object is tagged with
+	- read timestamp
+	- write timestamp
+## Optimistic Concurrency Control
+it's like GIT as you copy the db to be local and finish your work then commit once
+## Multi Version Concurrency Control 
+make copy of data but in database itself 
+## MVCC with timestamp
+each transaction assigned with timestamp 
+store for each version
+- last read
+- when it writes or created
+
 # Sources
 - [Concurrency Control: Two-Phase Locking - Part 1 (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=s8w-GplT6K4&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=19&pp=iAQB "Concurrency Control: Two-Phase Locking - Part 1 (Arabic - عربي) with Amr Elhelw - Tech Vault")
 - [Concurrency Control: Two-Phase Locking - Part 2 (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=4Ll7zlC9f4w&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=20&pp=iAQB "Concurrency Control: Two-Phase Locking - Part 2 (Arabic - عربي) with Amr Elhelw - Tech Vault")
-- 
+- [Concurrency Control: Timestamp Ordering & Optimistic CC (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=f6sl5XFnAr4&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=21&pp=iAQB "Concurrency Control: Timestamp Ordering & Optimistic CC (Arabic - عربي) with Amr Elhelw - Tech Vault") 
+- [Concurrency Control: Multi Version Concurrency Control (Arabic - عربي) with Amr Elhelw - Tech Vault](https://www.youtube.com/watch?v=RDry1RyIw1s&list=PLE8kQVoC67PzGwMMsSk3C8MvfAqcYjusF&index=22&pp=iAQB "Concurrency Control: Multi Version Concurrency Control (Arabic - عربي) with Amr Elhelw - Tech Vault") 
