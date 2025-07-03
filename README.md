@@ -28,6 +28,10 @@
     - [Lesson 1 - Entities](Tech/Spring%20JPA%26Hibernate/Lesson%201%20-%20Entities.md)
     - [Lesson 2 - The context](Tech/Spring%20JPA%26Hibernate/Lesson%202%20-%20The%20context.md)
     - [Lesson 3 - Working with the context](Tech/Spring%20JPA%26Hibernate/Lesson%203%20-%20Working%20with%20the%20context.md)
+    - [Lesson 4 - Primary keys](Tech/Spring%20JPA%26Hibernate/Lesson%204%20-%20Primary%20keys.md)
+    - [Lesson 5 - One-to-one relationship](Tech/Spring%20JPA%26Hibernate/Lesson%205%20-%20One-to-one%20relationship.md)
+    - [Lesson 6 - One-to-many relationships](Tech/Spring%20JPA%26Hibernate/Lesson%206%20-%20One-to-many%20relationships.md)
+    - [Lesson 7 - Many-to-many relationships](Tech/Spring%20JPA%26Hibernate/Lesson%207%20-%20Many-to-many%20relationships.md)
   - Spring Security
     - [Lesson 1 - First Steps](Tech/Spring%20Security/Lesson%201%20-%20First%20Steps.md)
     - [Lesson 2 - Managing users](Tech/Spring%20Security/Lesson%202%20-%20Managing%20users.md)

@@ -32,4 +32,4 @@ it's the component that mange user details in the app
 - after that use manager to create this user `createUser(user)` 
 - add bean of type `PasswordEncoder` and return an instance of any password encoder
 # Sources
-[Spring Security Fundamentals - Lesson 1 - First steps](https://www.youtube.com/watch?v=nSu9ElsnNtY&list=PLEocw3gLFc8X_a8hGWGaBnSkPFJmbb8QP&index=1&t=1s&pp=iAQB "Spring Security Fundamentals - Lesson 1 - First steps") 
+[Spring Security Fundamentals - Lesson 1 - First steps](https://www.youtube.com/watch?v=nSu9ElsnNtY&list=PLEocw3gLFc8X_a8hGWGaBnSkPFJmbb8QP&index=1&t=1s&pp=iAQB) 

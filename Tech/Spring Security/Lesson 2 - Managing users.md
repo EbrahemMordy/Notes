@@ -23,4 +23,4 @@ how to make
 - create class which implement `GrantedAuth` and override the method
 - override method `getAuthorities` in `SecurityUser` to return the authorities as list
 # Sources
-[Spring Security Fundamentals - Lesson 2 - Managing users](https://www.youtube.com/watch?v=dFvbHZ8CuKM&list=PLEocw3gLFc8X_a8hGWGaBnSkPFJmbb8QP&index=2&pp=iAQB "Spring Security Fundamentals - Lesson 2 - Managing users") 
+[Spring Security Fundamentals - Lesson 2 - Managing users](https://www.youtube.com/watch?v=dFvbHZ8CuKM&list=PLEocw3gLFc8X_a8hGWGaBnSkPFJmbb8QP&index=2&pp=iAQB) 

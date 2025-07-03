@@ -29,4 +29,4 @@ to assign for each attribute the column in database which it represents
 - detach
 	- remove from the context
 # Sources
-[JPA/Hibernate Fundamentals 2023 - Lesson 2 - The context](https://www.youtube.com/watch?v=BkhGRpozJ5Y&list=PLEocw3gLFc8UYNv0uRG399GSggi8icTL6&index=2&pp=iAQB "JPA/Hibernate Fundamentals 2023 - Lesson 2 - The context") 
+[JPA/Hibernate Fundamentals 2023 - Lesson 2 - The context](https://www.youtube.com/watch?v=BkhGRpozJ5Y&list=PLEocw3gLFc8UYNv0uRG399GSggi8icTL6&index=2&pp=iAQB) 

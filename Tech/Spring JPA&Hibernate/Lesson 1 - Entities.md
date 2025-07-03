@@ -40,4 +40,4 @@ entity it's just a java class that represent the table in database to become jav
 
 
 # Source
-[JPA/Hibernate Fundamentals 2023 - Lesson 1 - Entities](https://www.youtube.com/watch?v=t6n1NwMM8a8&list=PLEocw3gLFc8UYNv0uRG399GSggi8icTL6&index=1&pp=iAQB "JPA/Hibernate Fundamentals 2023 - Lesson 1 - Entities")
+[JPA/Hibernate Fundamentals 2023 - Lesson 1 - Entities](https://www.youtube.com/watch?v=t6n1NwMM8a8&list=PLEocw3gLFc8UYNv0uRG399GSggi8icTL6&index=1&pp=iAQB) 
