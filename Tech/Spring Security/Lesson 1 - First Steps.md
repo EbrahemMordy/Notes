@@ -1,29 +1,27 @@
 # Explanation 
-
 ![](Pasted%20image%2020250519065133.png)
-
 >App Level Security have two main things Authentication and authorization 
-#### Authentication
+## Authentication
 it's the step of check who are the user that try to access the app
-#### Authorization
-it's the step which check if you are valid to do this action or now allowed for your role 
-#### Roles
+## Authorization
+It's the step which check if you are valid to do this action or not allowed for your role 
+### Roles
 it represents who are you in the app
-#### Authority
-it's something you have in the app like read write
-#### Different Between Things
+### Authority
+it represents the actions you are valid to do in the program
+## Different Between Things
 - Encoding
 	- reverse able function any time without any keys
 - Encrypt
 	- when you have the output and want to get the input you need a **secret key** to get the correct input 
 - Hash Functions
 	- you can never get from the output to the input as it's random key
-	- and always same input give us the same output anytime we try it
-#### HTTP Basic Authentication
+	- same input give us the same output anytime we try it
+## HTTP Basic Authentication
 it's the basic one and the one used when you add security to your app and don't add any security 
-#### User Details Service 
+## User Details Service 
 it's the component that mange user details in the app 
-##### How to create it
+## How to create it
 - create a class and name it whatever you want
 - mark it with annotation `Configuration` 
 - add bean of type `UserDetailsService` 

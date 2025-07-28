@@ -15,5 +15,5 @@ in any entity you can use generated value for ID and there are two types of gene
 - `SEQUENCE` good one with databases that allow sequences 
 - `TABLE` create a sequence into DB and always make the ID based on the last one in this table, **Worst One** 
 - `UUID` useful when the rows can be unlimited 
-# Sources
+# Source
 [JPA/Hibernate Fundamentals 2023 - Lesson 3 - Working with the context](https://www.youtube.com/watch?v=eWjobgcuQFo&list=PLEocw3gLFc8UYNv0uRG399GSggi8icTL6&index=3&t=1s&pp=iAQB ) 

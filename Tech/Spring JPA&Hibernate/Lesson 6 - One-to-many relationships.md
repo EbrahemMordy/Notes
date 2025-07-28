@@ -3,7 +3,7 @@ One to many means that some entity have more than one row from the other entity 
 ## How to create One-To-Many relationship
 - *Many - One Way* 
 - create the two entities as usual
-- in the entity that will be the many rows you add `ManyToOne` at it above attribute of other entity type
+- in the entity that will be the many rows you add filed of other entity and mark it with `ManyToOne` 
 - ---
 - *One - One Way* 
 - same things but in the entity which will be one, you add `OneToMany` 
@@ -13,5 +13,5 @@ One to many means that some entity have more than one row from the other entity 
 - you add in both entities, but you must add `mappedBy` in `OneToMany` 
 
 
-# Sources
+# Source
 [Lesson 6 - One-to-many relationships](https://www.youtube.com/live/WVjXS_A_H6k?si=96SeklryyRDN4I4m) 

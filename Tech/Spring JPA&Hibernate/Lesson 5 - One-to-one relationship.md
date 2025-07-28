@@ -6,16 +6,30 @@
 It's when one entity have only one instance of other entity and the reverse
 ### Create a one-to-one relation
 to create the relation
-- if it's one way you create attribute in one entity of other type and then mark it with `OneToOne` annotation 
-- also you can change name of it with `JoinColumn` and write your name
-- if you create from both, in the second entity when use `OneToOne` annotation you need to add `mappedby` and add the field name which is written with `JoinColumn` 
+- **One directional**
+- you add an instance of the other entity and mark it with `OneToOne` annotation 
+- if you want to change the name of its column you can change it with `JoinColumn` and write your own name, the default is `name_id` 
+---
+- **Bidirectional**
+- same things as one directional but in the second entity we add instance of the other entity and use the `mappedBy` and add the name of attribute marked with `JoinColumn` 
 ### Cascading
 is way that you make one entity have same operations as other entity that have a relation with
 this one add-in `OneToOne` annotation with `cascade` and choose what you want.
 > Don't Overuse it
 ### Secondary Table
 when we have two tables, but there is no relation between them, but the other one contain data for the first one, so the second one is just some info about the first but normalized to be two tables
+```java
+@SecondryTable(
+	name="name"
+	pkJoinColumns=@PrimaryKeyJoinColumn(name="id")
+	//you can make it composed key
+)
+.
+.
+.
+// then mark your filed with @Column and use "table = name" 
+```
 > This can replace DTO
 
-# Sources
+# Source
 [JPA/Hibernate Fundamentals 2023 - Lesson 5 - One-to-one relationship](https://www.youtube.com/live/FabE0xjjqd4?si=BdjpPqP41QPnVHyT) 

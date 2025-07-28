@@ -28,5 +28,5 @@ to assign for each attribute the column in database which it represents
 	- mirror the context from database
 - detach
 	- remove from the context
-# Sources
+# Source
 [JPA/Hibernate Fundamentals 2023 - Lesson 2 - The context](https://www.youtube.com/watch?v=BkhGRpozJ5Y&list=PLEocw3gLFc8UYNv0uRG399GSggi8icTL6&index=2&pp=iAQB) 
