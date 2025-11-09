@@ -1,3 +1,4 @@
+# Explanation
 ## The Entity Bean
 Entity is an object, usual called POJO which represent real life model, like user, item etc…
 
@@ -137,3 +138,5 @@ Reservation res = travelAgent.bookPassage(creditCard, price);
 its like I/O in OS, you send message like open file, and keep what you're doing, after OS finish, it will reply, but in this case, message Driven didn't reply to the sender 
 ## The Bean-Container Contract
 Enterprise JavaBeans (EJB) uses three bean types within a managed container. Entity Beans represent business data/objects (customers, cabins) and map to database records. Session Beans manage business processes and taskflow, coordinating operations between entities through coarse-grained interfaces while handling complex business logic and hiding implementation details from clients. Message-Driven Beans process asynchronous JMS messages for external system integration without requiring direct client connections. The Container provides runtime services (transactions, security, concurrency) and manages bean life cycles through callbacks and context objects. This separates business logic from infrastructure concerns, reducing network traffic, improving reusability, and enabling both synchronous and asynchronous enterprise operations.
+# Source
+[Chapter 2 in Enterprise Java Beans 3.0 5th Ed 2006](https://www.scribd.com/doc/136500914/Enterprise-JavaBeans-3-0-5th-Ed-2006) 

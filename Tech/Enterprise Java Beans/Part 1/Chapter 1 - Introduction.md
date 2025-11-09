@@ -17,4 +17,4 @@ with the new Java Connector Architecture 1.5, EJB can work with any message-driv
 ## Web Services
 it's a way to make a system that use a lot of service and each one can be written by any programming language, and they can interact with each other using a standard protocols like SOAP and WSDL 
 # Source
-[Chapter 1 in Enterprise Java Beans 3.0 5th Ed 2006](file:///media/ebrahemmordy/PROG/Beshara/Enterprise%20JavaBeans%203.0%205th%20Ed%202006.chm) 
+[Chapter 1 in Enterprise Java Beans 3.0 5th Ed 2006](https://www.scribd.com/doc/136500914/Enterprise-JavaBeans-3-0-5th-Ed-2006) 

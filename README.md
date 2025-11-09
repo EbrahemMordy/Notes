@@ -30,7 +30,7 @@ This repository contains my personal notes on various Computer Science and Techn
   - **Part 1**
     - [Chapter 1 - Introduction](Tech/Enterprise%20Java%20Beans/Part%201/Chapter%201%20-%20Introduction.md)
     - [Chapter 2 - Architectural Overview](Tech/Enterprise%20Java%20Beans/Part%201/Chapter%202%20-%20Architectural%20Overview.md)
-    - [Chapter 3](Tech/Enterprise%20Java%20Beans/Part%201/Chapter%203.md)
+    - [Chapter 3 - Resource Management and Primary Services](Chapter%203%20-%20Resource%20Management%20and%20Primary%20Services.md)
 
 - **Java**
   - [Exception Handling](Tech/Java/Exception%20Handling.md)
