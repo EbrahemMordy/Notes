@@ -43,19 +43,19 @@ Some order of operations in the transaction, each different order is a different
 		- it's a write op then read op with the same variable
 	- Write-Write conflict
 		- it's a two write op with the same variable
-- Schedule Recoverability
+- Schedule Recover ability
 	- Recoverable Schedule
 		- if T1 writes X then T2 read/write X then T1 must commit before T2
 	- Cascading Rollback
 		- one transaction is roll backed, and you have to rollbacks some other transaction because it
-	- Cascading Schedule
+	- Cascadeless Schedule
 		- Subset of recoverable with no cascading rollback 
-			- for any W/R the first transaction must commit before the second one read
+			- for any W/R the first transaction must commit before the second one read 
 	- Strict Schedule
 		- Subset of cascadeless with stricter conditions 
 			- not only for W/R like cascading, we will check for W/R and also W/W 
 	- ![](Imgs/Pasted%20image%2020250402073343.png)
-- Schedule Serializability 
+- Schedule Serialize ability 
 	- Serial Schedule
 		- no intersect between transactions
 		- n! Possible schedules for n transactions
